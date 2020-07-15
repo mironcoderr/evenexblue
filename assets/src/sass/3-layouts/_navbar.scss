@@ -1,0 +1,64 @@
+
+
+
+
+//========================================
+//          NAVBAR SASS SECTION
+//========================================
+.navbar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 0px 0px;
+    border-bottom: 1px solid $border__color;
+    z-index: 1;
+
+    .container {
+        max-width: 1300px;
+
+        .navbar-brand {
+            padding: 0px 0px;
+        }
+        .navbar-collapse {
+            ul {
+                .nav-item {
+                    margin-left: 37px;
+
+                    .nav-link {
+                        color: $heading__color;
+                        font-size: $sm__size;
+                        @include secondary__medium;
+                        text-transform: capitalize;
+                        padding: 45px 0px 40px;
+                        position: relative;
+                    }
+                }
+
+                .active {
+                    .nav-link {
+                        border-bottom: 2px solid $brand__color;
+
+                        &::before {
+                            position: absolute;
+                            content: "";
+                            top: 52%;
+                            left: -15px;
+                            transform: translateY(-50%);
+                            width: 6px;
+                            height: 6px;
+                            border-radius: 50%;
+                            background: $brand__color;
+                        }
+                    }
+                }
+            }
+
+            .menu__btn {
+                .dots__btn {
+                    margin-left: 28px;
+                }
+            }
+        }
+    }
+}

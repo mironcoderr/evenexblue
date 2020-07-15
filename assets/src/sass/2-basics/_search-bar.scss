@@ -1,0 +1,40 @@
+
+
+
+
+//========================================
+//              SEARCH BAR 
+//========================================
+.navbar__src {
+    @include flex__center;
+    margin-left: 45px;
+    margin-top: 4px;
+
+    i {
+        color: $heading__color;
+        font-size: $md__size;
+    }
+
+    input {
+        color: $heading__color;
+        width: 100px;
+        height: 25px;
+        border: none;
+        background: none;
+        padding-left: 15px;
+        border-right: 2px solid $pclr__color;
+        @include cursor__transition;
+
+        &::placeholder {
+            color: $pclr__color;
+            font-size: $sm__size;
+            @include secondary__regular;
+            text-transform: capitalize;
+            letter-spacing: 0.3px;
+        }
+    }
+
+    &:focus-within input {
+        width: 150px;
+    }
+}

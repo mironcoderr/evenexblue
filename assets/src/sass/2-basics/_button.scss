@@ -1,0 +1,67 @@
+
+
+
+
+// NAVBAR BUTTON
+.book__btn {
+    color: $heading__color;
+    font-size: $xsm__size;
+    @include secondary__medium;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-left: 30px;
+    padding: 12px 25px;
+    border-radius: 8px;
+    background: $brand__color;
+    box-shadow: $btn__shadow;
+
+    img {
+        display: inline-block;
+        margin-right: 10px;
+        margin-bottom: 2px;
+        width: auto;
+        height: 15px;
+    }
+
+    &:hover {
+        color: $heading__color;
+        text-decoration: none;
+    }
+}
+
+
+// BANNER BUTTON
+.pur__btn {
+    color: $heading__color;
+    font-size: $sm__size;
+    @include secondary__medium;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 18px 34px;
+    border-radius: 8px;
+    margin-right: 25px;
+    background: $brand__color;
+    box-shadow: $btn__shadow;
+
+    img {
+        width: auto;
+        height: 20px;
+        margin-right: 10px;
+        margin-bottom: 2px;
+    }
+}
+
+.add__btn {
+    color: $heading__color;
+    font-size: $sm__size;
+    @include secondary__medium;
+    text-transform: capitalize;
+    display: inline-block;
+
+    img {
+        width: auto;
+        height: 20px;
+        margin-right: 10px;
+        margin-top: -2px;
+    }
+}

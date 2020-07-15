@@ -1,0 +1,35 @@
+
+
+
+//========================================
+//          1 - HELPERS FOLDER
+//========================================
+@import "1-helpers/_font.scss";
+@import "1-helpers/_common.scss";
+@import "1-helpers/_variable.scss";
+@import "1-helpers/_mixin.scss";
+
+
+//=======================================
+//          2 - BASICS FOLDER
+//=======================================
+@import "2-basics/_button.scss";
+@import "2-basics/_search-bar.scss";
+
+
+//=======================================
+//          3 - LAYOUTS FOLDER
+//=======================================
+@import "3-layouts/_navbar.scss";
+@import "3-layouts/_footer.scss";
+
+
+//=======================================
+//           4 - PAGES FOLDER
+//=======================================
+@import "4-pages/_index.scss";
+
+
+//=======================================
+//         5 - RESPONSIVE FOLDER
+//=======================================

@@ -1,0 +1,84 @@
+
+
+
+// =====================================
+//          BANNER SASS SECTION
+//======================================
+#banner__part {
+    background: url(../../images/banner.png);
+    @include bg__property;
+    position: relative;
+
+    .yellow__shape {
+        position: absolute;
+        top: 270px;
+        left: 0px;
+    }
+
+    .right__dots {
+        position: absolute;
+        top: 200px;
+        right: 0px;
+    }
+
+    .down__dots {
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .container {
+        position: relative;
+
+        .bottom__shape {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
+
+        .banner__content {
+            padding: 285px 0px 230px;
+
+            .banner__text {
+                text-align: center;
+                
+                p {
+                    color: $heading__color;
+                    font-size: $xmd__size;
+                    @include secondary__medium;
+                    margin-bottom: 20px !important;
+                }
+    
+                img {
+                    margin-bottom: 11px;
+                }
+                
+                h1 {
+                    color: $heading__color;
+                    font-size: $xlg__size;
+                    @include primary__bold;
+                    text-transform: capitalize;
+                    margin-bottom: 18px !important;
+                }
+                
+                h2 {
+                    color: $heading__color;
+                    font-size: $lg__size;
+                    @include primary__bold;
+                    text-transform: capitalize;
+                    margin-bottom: 60px !important;
+                }
+            }
+
+            .banner__btn {
+                text-align: center;
+    
+                a:hover {
+                    color: $heading__color;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
